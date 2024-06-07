@@ -9,7 +9,7 @@ class CustomDataset(Dataset):
     def __init__(self, folder_path, transform=None):
         self.folder_path = folder_path
         self.transform = transform
-        self.image_files = [f for f in os.listdir(folder_path) if f.endswith(".png")]
+        self.image_files = [f for f in os.listdir(folder_path) if f.endswith(".png") or f.endswith(".jpg")]
 
     def __len__(self):
         return len(self.image_files)
