@@ -1,11 +1,19 @@
 # satellite-image-mapper-3000
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Training](#training)
+- [Results](#results)
+- [Dataset](#dataset)
+- [Inspiration](#inspiration)
+
+## Introduction
+
 This project involves the transformation of satellite images into detailed maps using various neural network techniques. The primary goal is to leverage Generative Adversarial Networks (GANs) to accurately convert satellite imagery into useful map data. The project explores several GAN architectures, including Cycle-GAN, SAM-GAN, [Pix2Pix](https://arxiv.org/pdf/1611.07004) and Geo-GAN.
 
 ## Training
 
 We trained our models on pictures resized to 256x256 px.
-
 
 
 ## Results
