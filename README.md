@@ -1,6 +1,6 @@
 # satellite-image-mapper-3000
 
-This project involves the transformation of satellite images into detailed maps using various neural network techniques. The primary goal is to leverage Generative Adversarial Networks (GANs) to accurately convert satellite imagery into useful map data. The project explores several GAN architectures, including Cycle-GAN, SAM-GAN, Pix2Pix and Geo-GAN.
+This project involves the transformation of satellite images into detailed maps using various neural network techniques. The primary goal is to leverage Generative Adversarial Networks (GANs) to accurately convert satellite imagery into useful map data. The project explores several GAN architectures, including Cycle-GAN, SAM-GAN, [Pix2Pix](https://arxiv.org/pdf/1611.07004) and Geo-GAN.
 
 ## Training
 
@@ -32,5 +32,9 @@ Below are examples of the model's output at various epochs during the training p
 
 ## Dataset
 The dataset used in this project consists of satellite images and their corresponding maps. The data was sourced from https://www.kaggle.com/datasets/vikramtiwari/pix2pix-dataset, which provides high-resolution (1200x1200) satellite imagery and accurately annotated maps. The dataset is organized into training and validation sets.
+
+## Inspiration
+
+We were inspired by https://arxiv.org/pdf/1703.10593
 
 
