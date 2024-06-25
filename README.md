@@ -38,6 +38,12 @@ Below are examples of the model's output at various epochs during the training p
 | ![real_satellite_image](docs/images/pix2pix/sample1_input.png) | ![real_maps_image](docs/images/pix2pix/sample1_output.png) | ![5th_epoch](docs/images/pix2pix/sample1_epoch_5.png) | ![10th_epoch](docs/images/pix2pix/sample1_epoch_50.png) | ![15th_epoch](docs/images/pix2pix/sample1_epoch_100.png) | ![20th_epoch](docs/images/pix2pix/sample1_epoch_150.png) | ![25th_epoch](docs/images/pix2pix/sample1_epoch_200.png) |
 | ![real_satellite_image](docs/images/pix2pix/sample2_input.png) | ![real_maps_image](docs/images/pix2pix/sample2_output.png) | ![5th_epoch](docs/images/pix2pix/sample2_epoch_5.png) | ![10th_epoch](docs/images/pix2pix/sample2_epoch_50.png) | ![15th_epoch](docs/images/pix2pix/sample2_epoch_100.png) | ![20th_epoch](docs/images/pix2pix/sample2_epoch_150.png) | ![25th_epoch](docs/images/pix2pix/sample2_epoch_200.png) |
 
+### GeoGAN
+| real satellite image | real maps image                                          | 5th epoch | 50th epoch                                    | 100th epoch                                    | 150th epoch                                    | 200th epoch                                    | 
+|----------------------|----------------------------------------------------------|-----------|-----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|
+| ![real_satellite_image](docs/images/geo-gan/1-orginal.png) | ![real_maps_image](docs/images/geo-gan/1-real.png) | ![5th_epoch](docs/images/geo-gan/5-1.png) | ![10th_epoch](docs/images/geo-gan/50-1.png) | ![15th_epoch](docs/images/geo-gan/100-1.png) | ![20th_epoch](docs/images/geo-gan/150-1.png) | ![25th_epoch](docs/images/geo-gan/200-1.png) |
+| ![real_satellite_image](docs/images/geo-gan/2-orginal.png) | ![real_maps_image](docs/images/geo-gan/2-real.png) | ![5th_epoch](docs/images/geo-gan/5-2.png) | ![10th_epoch](docs/images/geo-gan/50-2.png) | ![15th_epoch](docs/images/geo-gan/100-2.png) | ![20th_epoch](docs/images/geo-gan/150-2.png) | ![25th_epoch](docs/images/geo-gan/200-1.png) |
+
 ## Dataset
 The dataset used in this project consists of satellite images and their corresponding maps. The data was sourced from https://www.kaggle.com/datasets/vikramtiwari/pix2pix-dataset, which provides high-resolution (1200x1200) satellite imagery and accurately annotated maps. The dataset is organized into training and validation sets.
 
